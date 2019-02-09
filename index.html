@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GAGSC</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="app/gagsc.css">
+</head>
+<body>
+  <main id="gagsc" class="container">
+  	<div class="text-center">
+    	<a id="updated" href="data/gagsc.csv"></a>
+  	</div>
+    <input id="input" class="form-control" placeholder="Enter the domain or UA-number" autofocus>
+    <table class="table table-striped table-bordered">
+      <tbody id="output">
+        <tr>
+          <td>Loading data…</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  <script src="assets/js/clusterize.min.js"></script>
+  <script async defer src="data/log.txt"></script>  
+  <script async defer src="app/gagsc.js"></script>  
+</body>
+</html>
